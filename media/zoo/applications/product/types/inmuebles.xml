@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<type version="1.0.0" name="Inmuebles">
+  <params>
+    <param type="text" identifier="0197b3be-604b-4389-912b-371c2a17d446" name="Breve Descripci&#xF3;n" description="" default="" repeatable="0"/>
+    <param type="text" identifier="a03c38fe-ca03-448b-ba77-cf5d97d31435" name="Finca N&#xB0;" description="" default="" repeatable="0"/>
+    <param type="text" identifier="a2685a7a-c516-44f2-8a2e-4245ba5d4892" name="C.C.C. N&#xB0;:" description="" default="" repeatable="0"/>
+    <param type="text" identifier="2ef9218c-3064-4ee5-ad1a-d7bf76e7858d" name="Distrito:" description="" default="" repeatable="0"/>
+    <param type="text" identifier="ab43d8fd-5373-4c63-8df4-0509dcb80b22" name="Ubicaci&#xF3;n:" description="" default="" repeatable="0"/>
+    <param type="text" identifier="1857189c-b868-452b-a1e0-b681d30f32bc" name="Superficie del Terreno(m2)" description="" default="" repeatable="0"/>
+    <param type="checkbox" identifier="eaa02273-2d3f-426b-99f2-096d92157851" name="Edificado o Baldio" description="" default="">
+      <option name="Edificado" value="edificado"/>
+      <option name="Baldio" value="balio"/>
+    </param>
+    <param type="text" identifier="3b7c7305-e232-4a93-84db-0f5a4a87fe31" name="Valor" description="" default="" repeatable="0"/>
+    <param type="checkbox" identifier="4c53de36-b876-4f5f-9aae-45c8d0e9da85" name="Observaciones" description="" default="">
+      <option name="Ex propietario a desalojar&lt;br&gt;" value="es-propietario-a-desalojar"/>
+      <option name="Ocupantes a desalojar&lt;br&gt;" value="ocupantes-a-desalojar"/>
+      <option name="Ocupantes en proceso de desalojo judicial&lt;br&gt;" value="ocupantes-en-proceso-de-desalojo-judicial"/>
+      <option name="Parte de la edificaci&#xF3;n afecta al inmueble lindero&lt;br&gt;" value="parte-de-la-edificacion-afecta-al-inmueble-lindero"/>
+      <option name="Edificaci&#xF3;n vecina afecta a este inmueble&lt;br&gt;" value="edificacion-vecina-afecta-a-este-inmueble"/>
+      <option name="Con juicio de ocupaci&#xF3;n&lt;br&gt;" value="con-juicio-de-ocupacion"/>
+      <option name="50% es propiedad de la Caja Bancaria&lt;br&gt;" value="50-es-propiedad-de-la-caja-bancaria"/>
+      <option name="50% Adjudicado a al Caja Bancaria&lt;br&gt;" value="h---50-adjudicado-a-al-caja-bancariabr"/>
+      <option name="Tasaci&#xF3;n en proceso de actualizaci&#xF3;n &lt;br&gt;" value="i---tasacion-en-proceso-de-actualizacion"/>
+      <option name="Escritura de Transferencia judicial en proceso de inscripci&#xF3;n &lt;br&gt;" value="escritura-de-transferencia-judicial-en-proceso-de-inscripcion"/>
+      <option name="Superficie diferente a la establecida en el titulo (menor)&lt;br&gt;" value="superficie-diferente-a-la-establecida-en-el-titulo"/>
+      <option name="Con oferta recibida&lt;br&gt;" value="con-oferte-recibida"/>
+      <option name="No se ubica la propiedad&lt;br&gt;" value="no-se-ubica-lapropiedad"/>
+      <option name="Inmueble a ser vendido por lotes&lt;br&gt;" value="inmueble-a-ser-vendido-por-lotesbr"/>
+    </param>
+    <param type="textarea" identifier="beab45eb-b32a-4766-822d-b3fb72b5b1d4" name="Mapa Miniatura" description="" default="" jplugins="0" repeatable="0"/>
+    <param type="textarea" identifier="83ba7366-d126-40f0-923e-3e7a94f0e773" name="Mapa Grande" description="" default="" jplugins="1" repeatable="1"/>
+  </params>
+</type>

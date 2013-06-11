@@ -1,0 +1,71 @@
+/** IE6 is a hunk of crap!!! due to limitations in the CSS capabilities of IE, these hacks are required **/
+
+/** horid IE render order bug - http://www.positioniseverything.net/explorer/percentages.html */
+
+#content,
+#component,
+#component .padding,
+#component .padding2,
+#component .contentpaneopen,
+span.pathway {
+	position: relative;
+	height: 1%;
+}
+
+/* hacks for RokSlide */
+
+.tab-pane {
+	margin-left: 10px;
+}
+
+#horiz-menu li li a {
+	width: 98%;
+}
+
+#topmodules,
+div.header,
+#mod-top .spacer {
+	zoom: 1;
+}
+
+/* transparent stuff for sample content */
+
+body.style1 div.sample-header {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/rt_equinox/images/style1/header-sample.png', sizingMethod='crop');
+	background: none;
+}
+
+body.style2 div.sample-header {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/rt_equinox/images/style2/header-sample.png', sizingMethod='crop');
+	background: none;
+}
+
+body.style3 div.sample-header {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/rt_equinox/images/style3/header-sample.png', sizingMethod='crop');
+	background: none;
+}
+
+body.style4 div.sample-header {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/rt_equinox/images/style4/header-sample.png', sizingMethod='crop');
+	background: none;
+}
+
+body.style5 div.sample-header {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/rt_equinox/images/style5/header-sample.png', sizingMethod='crop');
+	background: none;
+}
+
+body.style6 div.sample-header {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/rt_equinox/images/style6/header-sample.png', sizingMethod='crop');
+	background: none;
+}
+
+body.style7 div.sample-header {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/rt_equinox/images/style7/header-sample.png', sizingMethod='crop');
+	background: none;
+}
+
+body.style8 div.sample-header {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/rt_equinox/images/style8/header-sample.png', sizingMethod='crop');
+	background: none;
+}
